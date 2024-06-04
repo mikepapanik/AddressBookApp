@@ -66,23 +66,6 @@ Enter date of birth (YYYY-MM-DD): 1980-01-01
 Contact added successfully!
 \`\`\`
 
-### Project Structure
-
-\`\`\`
-AddressBookApp/
-├── src/
-│   └── com/
-│       └── company/
-│           ├── AddressContact.ser   # Serialized data file
-│           ├── Contact.java         # Contact class
-│           ├── CreateInitialContacts.java # Class to create initial contacts
-│           ├── Main.java            # Main class with the application entry point
-│           └── SerializationUtil.java # Utility class for serialization
-├── .gitignore
-├── README.md
-└── LICENSE
-\`\`\`
-
 ### Serialization
 
 The application uses Java's serialization mechanism to save and load contact data to and from a file named `AddressContact.ser`. This ensures that all contact information is preserved between sessions.
